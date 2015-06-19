@@ -1,0 +1,30 @@
+{
+  "name": "pf-scraper",
+  "version": "0.0.1",
+  "description": "Pitchfork review scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkadyp/pf-scraper.git"
+  },
+  "author": "Arkady Pevzner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkadyp/pf-scraper/issues"
+  },
+  "homepage": "https://github.com/arkadyp/pf-scraper",
+  "dependencies": {
+    "async": "^1.2.1",
+    "express": "^4.12.4",
+    "jsdom": "3.x",
+    "lodash": "^3.9.3",
+    "request": "^2.58.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "nodemon": "^1.3.7"
+  }
+}
